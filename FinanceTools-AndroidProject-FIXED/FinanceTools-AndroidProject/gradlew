@@ -1,0 +1,4 @@
+#!/bin/sh
+# Gradle start up script for POSIX
+APP_HOME=$( cd "${0%/*}" && pwd -P )
+exec gradle "$@"
